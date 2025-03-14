@@ -3,7 +3,7 @@ let chicken_repeat=setInterval(() => {
    
     let ch=document.createElement('img');
     ch.src='imgs/chickenBlue.png'
-    ch.style.width='50px'
+    ch.style.width='100px'
     container.appendChild(ch)
     document.body.appendChild(ch)
 }, 200);
